@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+
+.body 
+{   position: relative;
+    background-color: red;
+}
+.description
+{
+    text-align: center;
+}
+.h2
+{
+    color: white;
+    text-shadow: black;
+}
+
+.button
+{
+    align-items: center;
+}
