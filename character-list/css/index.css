@@ -1,4 +1,15 @@
 @charset "utf-8";
+
+.dbg-Border {
+    box-shadow: rgb(0, 0, 0) 0 0 0 1px inset;
+    background-color: rgba(204, 204, 204, 0.025);
+}
+
+.dbg-Border * {
+    box-shadow: rgb(0, 0, 0) 0 0 0 1px inset;
+    background-color: rgba(204, 204, 204, 0.025);
+}
+
 .conteiner
 {
 display:flex;
