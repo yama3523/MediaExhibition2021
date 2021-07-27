@@ -2,23 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/shared/assets/css/ress.min.css">
     <link rel="stylesheet" href="/character-list/css/index.css">
+
     <style>
 
     </style>
     <title>CHARACTERLIST</title>
+    <!-- メニューボタンcss-->
+    <link rel="stylesheet" type="text/css" href="css/5-1-14.css">
+    <!-- #endregion -->
 </head>
-<header>
-    <img src="/character-list/images/logo.png">
+</head>
+<body>
+<header class="header dbg-Border" >
+    <img src="/character-list/images/logo.png" class="header-title">
+
+    <!-- メニュー本体-->
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+    <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
     <ul>
-        <li><a href="/index.html">TOP</a></li>
-        <li><a href="/character-list/html/index.html">CHARACTERLIST</a></li>
-        <li><a href="/item-list/index.html">ITEMLIST</a></li>
+    <li><a href="#"><Tbody></Tbody></a></li> 
+    <li><a href="/index.html">TOPPAGE</a></li> 
+    <li><a href="/character-list/html/index.html">CHARACTERLIST</a></li> 
+    <li><a href="/item-list/index.html">ITEMLIST</a></li> 
+    </ul>
+    </div>
+    </nav>
+    <!-- ここまで-->
+
+    <ul class="header-list">
+        <li class="header-item"><a class=header-link href="/index.html">TOP</a></li>
+        <li class="header-item"><a class=header-link href="/character-list/html/index.html">CHARACTERLIST</a></li>
+        <li class="header-item"><a class=header-link href="/item-list/index.html">ITEMLIST</a></li>
         
     </ul>
+    
 </header>
 
-<body>
     <h1 class="title">CHARACTERLIST</h1>
     <div class="conteiner">
 
@@ -58,7 +82,14 @@
     </div>
     
 
+    <footer></footer>
+    <!-- JQ-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous"></script>
+    <!-- JS-->
+    <script src="/character-list/js/index.js"></script>
+
+
 
 </body>
 
-<footer></footer>
