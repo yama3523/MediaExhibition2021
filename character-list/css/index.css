@@ -18,6 +18,7 @@ display:flex;
 flex-wrap: wrap;
 overflow: hidden;
 width: auto;
+height: auto;
 background-color:white;
 
 
