@@ -14,7 +14,8 @@
 .hero
 { 
     margin: 65px 0 0;
-    padding: 0 24px 0 24px;
+    
+    
 
 
     
@@ -25,6 +26,8 @@
     color: #CA0000;
     -webkit-text-stroke:1px #000000;
     text-shadow: 0.1em 0.1em 0px #000000;
+    font-size: 52px;
+    padding: 0 65px 0 65px;
 }
 
 .hero-para
@@ -40,6 +43,12 @@
 {
     display: flex;
     align-items: center;
+    border-top:solid 24px #3D9CB0;
+    border-bottom: solid 24px #3D9CB0;
+    background-image: url("../images/Guard-backimage.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 24px 0 24px;
 }
 
 .hero-img
@@ -48,6 +57,41 @@
     width: auto;
     width: calc(150/376*100%);
 }
+.desc
+{
+    display: flex;
+}
+
+.desc-heading
+{
+    
+writing-mode: vertical-rl;
+text-orientation: mixed;
+-webkit-text-stroke:3px #000000;
+color: #CA0000;
+font-size: 96px;
+
+}
+.item-heading
+{
+    -webkit-text-stroke:3px #000000;
+    color: #CA0000;
+    font-size: 52px;
+}
+.item-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-content
+{
+    width: 50%;
+    
+}
+
+
+
 
 
 
