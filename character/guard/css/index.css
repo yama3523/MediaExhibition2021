@@ -14,6 +14,7 @@
 .hero
 { 
     margin: 65px 0 0;
+    padding: 0 24px 0 24px;
 
 
     
@@ -30,6 +31,8 @@
 {
     color: #C4C4C4;
     -webkit-text-stroke:0.5px #000000;
+    width: calc(226/376*100%);
+
   
 }
 
@@ -39,6 +42,12 @@
     align-items: center;
 }
 
+.hero-img
+{
+    max-width: 100%;
+    width: auto;
+    width: calc(150/376*100%);
+}
 
 
 
