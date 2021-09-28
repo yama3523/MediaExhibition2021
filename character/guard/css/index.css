@@ -91,6 +91,7 @@ margin-left: 70px;
     color: #CA0000;
     font-size: 52px;
     margin-top: 20px;
+    text-align: center;
 }
 .item-list
 {
@@ -173,7 +174,7 @@ margin-left: 70px;
 .header-item
 {
     display: inline-block;
-    text-align: center;
+    
 
 }
 
@@ -191,12 +192,13 @@ margin-left: 70px;
 
 .pageback
 {
+    text-decoration: none;
     text-align: center;
     margin-top: 50px;
     font-size: 24px;
     -webkit-text-stroke:0.5px #000000;
     color: #CA0000;
-    text-decoration: none;
+    
 }
 
 
