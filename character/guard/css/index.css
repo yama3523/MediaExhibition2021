@@ -44,11 +44,12 @@
     display: flex;
     align-items: center;
     border-top:solid 24px #3D9CB0;
-    border-bottom: solid 24px #3D9CB0;
-    background-image: url("../images/Guard-backimage.png");
+    border-bottom: solid 28px #3D9CB0;
+    background-image: url("../images/Guard-backimg.png");
     background-position: center;
     background-size: cover;
     padding: 0 24px 0 2px;
+    
 }
 
 .hero-img
@@ -63,6 +64,7 @@
     font-size: 12px;
     text-align: center;
     width: 100%;
+    margin-top: 10%;
 
     
 }
@@ -103,13 +105,17 @@ margin-left: 70px;
 
 .item-content
 {   
-    border: black 1px solid; 
+   
     overflow: hidden;
     width: 50%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    
-    
+    margin: 0 auto 10px;
+    padding: 10px;
+
+}
+
+.item-img-outer
+{
+    border: black 1px solid; 
     
 }
 
@@ -136,7 +142,8 @@ margin-left: 70px;
 {
     
     background-color: white;
-    margin: 0 auto;
+    margin: 10px 0 0;
+    
     
     
 }
@@ -154,6 +161,11 @@ margin-left: 70px;
     display: flex;
     padding: 16px 0;
 
+}
+
+.header-title
+{
+    margin-left: 10px;
 }
 
 .header-list
@@ -192,10 +204,14 @@ margin-left: 70px;
 
 .pageback
 {
-    text-decoration: none;
     text-align: center;
     margin-top: 50px;
-    font-size: 24px;
+   
+}
+.pageback-link
+{
+    text-decoration: none;
+    font-size: 14px;
     -webkit-text-stroke:0.5px #000000;
     color: #CA0000;
     
